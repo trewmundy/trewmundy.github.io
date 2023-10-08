@@ -1,0 +1,73 @@
+img{
+top: 0px;
+min-width: 100vw;
+}
+
+
+.container{
+position: absolute;
+top: 10px;
+
+}
+
+.box1{
+top: -1px;
+left: 1px;   
+width: 100px;
+height: 100px;
+position: absolute;
+background-color: rgba(255, 0, 0, 0.444);
+color: white;
+font-size: 25px;
+text-align: center;
+
+}
+
+.box2{
+    background-image: url(ESPN-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.705);
+    
+
+    }
+
+
+
+    .container2{
+        position: absolute;
+        bottom: 20px;
+        
+        }
+        
+        .box3{
+        top: -10px;
+        left: -10px;   
+        width: 1000px;
+        height: 30px;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        
+        }
+        
+        .box4{
+       
+        top: -10px;
+        left: 900px;   
+        width: 600px;
+        height: 30px;
+        position: absolute;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        font-size: 22px;
+        text-align: center;
+            
+        
+            }
