@@ -13,7 +13,7 @@ border: yellow 5px solid;
 
 .div-wrapper{
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
+    grivscode-file://vscode-app/Users/trewmundy/Desktop/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmld-template-columns: 4fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 
 }
