@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ica10.css">
+</head>
+<body>
+    <button type="button"> Click Here!</button>
+    <button id="btn"> Click here too!</button>
+
+    
+
+
+    <script>
+        const button = document.querySelector("button");
+
+        button.addEventListener('click',changeColor);
+        let isRed = false
+        function changeColor(){
+            if (isRed){
+                button.classList.remove("red")
+                isRed= false
+            }
+            else{
+             button.classList.add('red'); 
+             isRed=true}
+            }
+
+        
+
+    </script>
+    <script>
+    var b = document.querySelector("#btn");
+    b.style.position = "absolute"; // Set the position property
+    b.addEventListener("click", change);
+
+    function change() {
+      var i = Math.floor(Math.random() * 500) + 1;
+      var j = Math.floor(Math.random() * 500) + 1;
+      b.style.left = i + "px";
+      b.style.top = j + "px";
+    }
+        
+        
+    </script>
+
+        
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    background-color: lightblue;
+    cursor: pointer;
+    height: 100px;
+    width: 150px;
+    border: solid, green 2px;
+}
