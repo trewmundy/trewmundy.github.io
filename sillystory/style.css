@@ -1,0 +1,26 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 350px;
+    background-color: coral;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  div {
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: #b7d1a3;
+    color: rgba(0, 0, 0, 0.842);
+    padding: 10px;
+    visibility: hidden;
+    border: darkgreen 2px solid;
+  }
