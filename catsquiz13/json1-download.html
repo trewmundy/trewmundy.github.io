@@ -43,21 +43,23 @@
       let male = 0;
 
       // Add your code here
-      catString =JSON.parse(catString)
-      for(let i in catString -1){
-        if (i== catString.length -1){
-          motherInfo += $[catString[i].name]
-        }
-      }
-      let kittens =[];
-      for(let i in catString){
-        kittens=kittens.concat(catString[i].kittens)
-      }
-      male = kittens.filter(item => item.gender === 'm').length
-kittenInfo = `The total number of kittens is ${kittens.length}, there are ${male}  males and ${kittens.length - male} females`
-    
+      catString = JSON.parse(catString)
+      for (let i in catString) {
+      if (i == catString.length - 1) {
+        motherInfo += `and ${catString[i].name}.`;
+      } else {
+        motherInfo += `${catString[i].name}, `;
+  }
+}
 
-      // Don't edit the code below here!
+let kittens = [];
+  for (let i in catString) {
+    kittens = kittens.concat(catString[i].kittens);
+}
+
+    male = kittens.filter((item) => item.gender === 'm').length;
+    kittenInfo = `The total number of kittens is ${kittens.length}, there are ${male} males and ${kittens.length - male} females`;
+
 
       para1.textContent = motherInfo;
       para2.textContent = kittenInfo;
