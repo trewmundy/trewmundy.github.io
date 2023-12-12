@@ -1,0 +1,58 @@
+
+body{
+
+    background-color: #ffc4a4;
+}
+
+header{
+border: 5px solid green; 
+  border-radius: 10px; 
+  padding: 5px; 
+  
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #eb6424;
+  color: #243a05;
+  font-size: 50px;
+  mix-blend-mode: normal ;
+}
+
+  button {
+    position: absolute;
+    background-color: #fa9500;
+    border: 5px solid #eb6424; 
+  border-radius: 10px; 
+    color: white;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 20px;
+    animation: fadeIn 3s;
+    animation: fadeOut 3s;
+    
+}
+div{
+background-color: #babd8d;
+font-size: 3ch;
+    border: 5px solid green; 
+  border-radius: 10px; 
+  padding: 10px; 
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  color: #243a05;
+  font-size: 30px;
+
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50%% { opacity: 1; }
+  }
+
+
+
+button:hover {opacity: 0.5}
