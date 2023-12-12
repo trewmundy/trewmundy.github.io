@@ -69,6 +69,19 @@ font-size: 3ch;
 
 }
 
+#submitbutton{
+    margin-left: 1000px;
+    background-color: green;
+    border: 5px solid #eb6424; 
+  border-radius: 10px; 
+    color: white;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 20px;
+
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     50% { opacity: 1; }

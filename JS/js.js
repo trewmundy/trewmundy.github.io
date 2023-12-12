@@ -42,4 +42,9 @@ let counter = 0;
       loop();
 
 
+      function visitPage(){
+        window.location='https://www.youtube.com/watch?v=6WTdTwcmxyo';
+    }
+
+// ADD SUBMIT BUTTON!!!!!!!!
       
