@@ -33,6 +33,17 @@ let counter = 0;
 
 
       }
+      function hideButton(buttonId){
+        const button = document.getElementById(buttonId);
+        button.style.display = 'none';
+      }
+
+      function jennyButton(){
+num += 8675309
+updatePhone();
+hideButton('jennyJenny');
+      }
+
 
       function loop(){
         counter += 1;
@@ -46,5 +57,6 @@ let counter = 0;
         window.location='https://www.youtube.com/watch?v=6WTdTwcmxyo';
     }
 
-// ADD SUBMIT BUTTON!!!!!!!!
+    const newButton = document.getElementById('jennyJenny')
+
       

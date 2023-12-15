@@ -9,17 +9,23 @@ border: 5px solid green;
   border-radius: 10px; 
   padding: 5px; 
   
+  
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: 100px auto;
+  margin-bottom: 10vw;
   background-color: #eb6424;
   color: #243a05;
   font-size: 5vw;
-  mix-blend-mode: normal ;
+  min-width: 400px;
+  max-width: 800px;
+  width: 70%;
+  
+ 
 }
 
   button {
     position: absolute;
+    top: 95%;
     background-color: #fa9500;
     border: 5px solid #eb6424; 
   border-radius: 10px; 
@@ -34,43 +40,31 @@ border: 5px solid green;
 }
 
 
-p{
-    background-color: #fa9500;
-font-size: 3ch;
-    border: 5px solid green; 
-  border-radius: 10px; 
-  padding: 5px; 
-  text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 100px;
-  color: #243a05;
-  font-size: 20px;
-
-    
-}
-
-
-
-
 div{
 background-color: #babd8d;
-font-size: 3ch;
+font-size: 3vw;
     border: 5px solid green; 
   border-radius: 10px; 
-  padding: 10px; 
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-top: 100px;
+  margin: 100px auto;
   color: #243a05;
   font-size: 30px;
+  min-width: 400px;
+  max-width: 800px;
+  width: 0%;
+  font-size: 3vw;
+  margin-top: 15vw;
+
 
 
 }
 
 #submit{
-    margin-left: 1000px;
+   position: fixed;
+   right: 0;
+   top: 95%;
     background-color: green;
     border: 5px solid #eb6424; 
   border-radius: 10px; 
@@ -79,7 +73,20 @@ font-size: 3ch;
  
     display: inline-block;
     font-size: 20px;
+}
 
+#jennyJenny{
+  position: fixed;
+  right: 50%;
+  top: 95%;
+   background-color: green;
+   border: 5px solid #eb6424; 
+ border-radius: 10px; 
+   color: white;
+   text-align: center;
+
+   display: inline-block;
+   font-size: 20px;
 }
 
 @keyframes fadeIn {
@@ -90,3 +97,4 @@ font-size: 3ch;
 
 
 button:hover {opacity: 0.5}
+
